@@ -1,4 +1,7 @@
-import { updateEmployee } from "../../../api/employeeApis";
+
+
+
+import { updateEmployee } from "../../../api/EmployeeApis.jsx";
 import EmployeeActions from "./EmployeeActions";
 import StatusBadge from "./StatusBadge";
 
