@@ -1,11 +1,12 @@
-import { Home } from "lucide-react";
+
 import Chat from "../../features/chats/Chat";
+import Home from "../../features/dashboard/ui/pages/Home";
 import Setting from "../../features/settings/Setting";
 
 export let commonRoutes = [
   {
     path: "",
-    element: <Home />,
+    element:<Home/>
   },
   {
     path: "chat",

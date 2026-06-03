@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Outlet } from "react-router";
-import { toggleTheme } from "../../shared/state/ThemeSlice";
+import { toggleTheme } from "../../shared/state/ThemeSlice.jsx";
 import AsideNav from "../../features/dashboard/components/AsideNav";
 import TopNav from "../../features/dashboard/components/TopNav";
 
@@ -23,6 +23,7 @@ const DashBoardLayout = () => {
         <TopNav />
 
         <div className="h-full overflow-auto">
+          
           <Outlet />
         </div>
       </div>

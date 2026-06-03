@@ -1,7 +1,7 @@
 import { Bell, Lightbulb, Menu, Moon, Search } from 'lucide-react'
 import React from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import { themeSlice, toggleTheme } from '../../../shared/state/ThemeSlice'
+import { themeSlice, toggleTheme } from '../../../shared/state/ThemeSlice.jsx'
 
 const TopNav = () => {
     const dispatch = useDispatch()

@@ -17,3 +17,5 @@ export let themeSlice =  createSlice({
 })
 
 export let {toggleTheme} = themeSlice.actions
+
+export default themeSlice.reducer

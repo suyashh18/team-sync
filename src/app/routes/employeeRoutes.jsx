@@ -1,6 +1,7 @@
-import Attendance from "../../features/employee module/Attendance/Attendance";
-import MyTask from "../../features/employee module/MyTask/MyTask";
-import Profile from "../../features/employee module/profile/profile";
+import Attendance from "../../features/employeeModule/Attendance/Attendance.jsx";
+import MyTask from "../../features/employeeModule/MyTask/MyTask.jsx";
+import Profile from "../../features/employeeModule/profile/Profile.jsx";
+
 
 export let employeeRoutes = [
   {
